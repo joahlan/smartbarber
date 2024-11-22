@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
+
+.containers{
+    display: flex;
+    position: relative;
+    align-items: center;
+    bottom: -33vw;
+}
+
+.balao{
+    display: flex;
+    margin: 10px;
+}
+
+.empresa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 200px;
+    background-color: rgb(154, 111, 194);
+    border-radius: 3px;
+}
+
+p{
+    margin: 10px;
+    text-align: center;
+}
