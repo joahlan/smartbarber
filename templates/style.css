@@ -1,51 +1,62 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
     display: flex;
     justify-content: center;
     margin: 0%;
+    font-family: "Parkinsans";
+    background-color: #ececec;
 }
 
-.corpo{
-    height: 50px;
+.corpo {
+    height: 100px;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     margin-top: 50px;
     position: relative;
     right: 23vw;
     font-size: 23px;
+    font-family: "Playfair";
 }
 
-.frase{
+.frase {
     margin-top: 50px;
     position: relative;
     right: 17vw;
-    text-align: center;
-    width: 400px;
     text-align: left;
+    width: 400px;
+    text-align: center;
+    border-radius: 5px;
 }
 
-.banner{
+.p1 {
+    color: aqua;
+}
+
+.banner {
     position: relative;
-    left: 24vw;
-    bottom: 20vw;
+    left: 22vw;
+    bottom: 24vw;
 }
 
 
-.containers{
+.containers {
     display: flex;
     position: relative;
     align-items: center;
     bottom: 28vw;
 }
 
-.balao{
+.balao {
     display: flex;
     margin: 10px;
 }
 
-.opcao{
+.opcao {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,19 +65,19 @@ body{
     width: 400px;
     height: 200px;
 
-    background-color: rgb(154, 111, 194);
+    background-color: rgb(166 188 200);
     border-radius: 3px;
     box-shadow: 0px 0px 6px #636363;
-    color: rgb(255, 255, 255);
+    color: rgb(26, 26, 26);
     text-align: left;
 }
 
-p{
+p {
     margin: 10px;
     text-align: center;
 }
 
-.cadastrar{
+.cadastrar {
     padding: 7px;
     border-radius: 5px;
     border: 0px solid;
