@@ -4,6 +4,10 @@ body{
     margin: 0%;
 }
 
+.corpo{
+    height: 50px;
+}
+
 .logo{
     display: flex;
     align-items: center;
